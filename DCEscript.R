@@ -101,7 +101,6 @@ run_one_design <- function(seed, label,
   }
   des_mat <- get_design_mat(des_obj)
   
-  # 3) 评估
   flush.console()
   eval <- idefix::EvaluateDesign(des = des_mat, par.draws = matrix(beta0,1), n.alts = n_alts)
   flush.console()
@@ -239,6 +238,7 @@ prior_sensitivity <- function(des_csv, scales=c(0.5,1,1.5)){
   }
   data.frame(Scale=scales, DB.error=sapply(scales, function(s) f(s*beta0)))
 }
+
 
 
 
