@@ -22,9 +22,6 @@ It builds 60 tasks with 2 alternatives (60×2), decodes human-readable questionn
    - Table_Attributes_and_Levels.csv (attribute–level table)
    - Table_Priors.csv (prior vector)
 
-# Citation
-If this design or code helps your work, please acknowledge:
-“DCE designs were generated in R using the idefix package with custom scripts by Xinsheng Wu (Fudan University), 2025.”
 
 # License
 All rights reserved. See the copyright notice above. For usage beyond personal research, please contact the author for permission.
