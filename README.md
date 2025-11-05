@@ -1,8 +1,5 @@
-Discrete Choice Experiment (DCE) Design for PrEP Preferences (R / idefix)
-
-###########################################################
 # Copyright © 2025 Xinsheng Wu, Fudan University
-###########################################################
+
 
 Overview
 This repository contains R code to generate D-optimal discrete choice experiment (DCE) designs for PrEP preference studies using the idefix package.
