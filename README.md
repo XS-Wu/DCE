@@ -1,15 +1,15 @@
 # Copyright © 2025 Xinsheng Wu, Fudan University
 
 
-Overview
+# Overview
 This repository contains R code to generate D-optimal discrete choice experiment (DCE) designs for PrEP preference studies using the idefix package.
 It builds 60 tasks with 2 alternatives (60×2), decodes human-readable questionnaires, optionally splits tasks into balanced blocks, and exports diagnostics and helper tables.
 
-Requirements
+# Requirements
 - R (≥ 4.2 recommended)
 - Packages: idefix (script calls library(idefix))
 
-Quick Start
+# Quick Start
 1) Install dependency
    install.packages("idefix")
 2) Run the script (RStudio or command line)
@@ -22,10 +22,10 @@ Quick Start
    - Table_Attributes_and_Levels.csv (attribute–level table)
    - Table_Priors.csv (prior vector)
 
-Citation
+# Citation
 If this design or code helps your work, please acknowledge:
 “DCE designs were generated in R using the idefix package with custom scripts by Xinsheng Wu (Fudan University), 2025.”
 
-License
+# License
 All rights reserved. See the copyright notice above. For usage beyond personal research, please contact the author for permission.
 
